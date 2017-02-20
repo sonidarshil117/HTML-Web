@@ -1,0 +1,121 @@
+div.banner1 {
+    width: 40%;
+    position: fixed;
+    top: 0px;
+    left: 32%;
+    height: 15%;
+    color: darkred;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+div.banner4 {
+    width: 30%;
+    position: fixed;
+    top: 15%;
+    left: 32%;
+    height: 10%;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 5px;
+}
+
+div.banner2 {
+    background-image: url("cosmetics_banner2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    position: fixed;
+    top: 2px;
+    left: 15%;
+    height: 25%;
+}
+
+div.banner3 {
+    background-image: url("cosmetics_banner3.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    position: fixed;
+    top: 2px;
+    left: 65%;
+    height: 25%;
+}
+
+div.banner {
+    width: 70%;
+    position: fixed;
+    top: 0px;
+    left: 14%;
+    height: 33%;
+    background-color: #f3f3f3;
+}
+
+div.menu {
+    width: 68%;
+    position: fixed;
+    top: 26%;
+    left: 15%;
+    height: 10%;
+    vertical-align: sub;
+}
+
+div.menu > span {
+    position: relative;
+    color: darksalmon;
+    font-family: serif;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin: 0px 15px;
+}
+
+div.body {
+    background-color: #f3f3f3;
+    margin-top : 15%;
+    margin-left: 194px;
+    border: thin darkgray;
+    width: 70%;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+div.space {
+    clear: both;
+    height : 33%;
+    width : 100%;
+}
+
+div.box {
+    margin: 5px;
+    width: 130px;
+    height: 145px;
+    border: transparent;
+    background-color: white;
+    display: block;
+    float: left;
+}
+
+div.box > span {
+    display: block;
+}
+
+img.item {
+    height: 110px;
+    width: 110px;
+    border: solid thin darkgray;
+    margin: 7px 7px 0px 7px;
+}
+
+span.desc {
+    font-size: 13px;
+    font-family: serif;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+}
